@@ -26,10 +26,10 @@ public class CustomList {
             throw new ArrayIndexOutOfBoundsException();
         }
     }
-//
-//    public int countCities() {
-//        return cities.size();
-//    }
+
+    public int countCities() {
+        return cities.size();
+    }
 
     
 
