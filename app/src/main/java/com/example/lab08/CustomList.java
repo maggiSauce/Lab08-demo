@@ -1,6 +1,7 @@
 package com.example.lab08;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class CustomList {
@@ -17,6 +18,18 @@ public class CustomList {
     public boolean hasCity(City city) {
         return cities.contains(city);
     }
+
+//    public void deleteCity(City city) {
+//        if (cities.contains(city)) {
+//            cities.remove(city);
+//        } else {
+//            throw new ArrayIndexOutOfBoundsException();
+//        }
+//    }
+//
+//    public int countCities() {
+//        return cities.size();
+//    }
 
     
 
